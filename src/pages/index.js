@@ -1,6 +1,22 @@
 import React from "react"
 import '../global.css';
 
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Second from "../components/Second";
+import LatestRecipes from "../components/LatestRecipes";
+
 export default function Home() {
-  return <div className="bg-rose-500">Hello world!</div>
+  return (
+    <>
+  
+    <Header />
+    <Hero />
+    <Second />
+    <LatestRecipes />
+   
+    
+    
+    </>
+  )
 }
